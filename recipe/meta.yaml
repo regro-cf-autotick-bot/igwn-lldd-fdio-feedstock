@@ -1,5 +1,5 @@
 {% set name = "igwn-lldd-fdio" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://git.ligo.org/computing/lowlatency/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 862fcb1f7f7039ebe126e9d532835696fa8b29ef954bca162b687dfccdbad8d9
+  sha256: 4ef3ad4a26d501fe6236c86882a998694703c3e3119c017ce9caf6cb2d342822
 
 build:
   entry_points:
@@ -45,15 +45,11 @@ test:
     - kafka2fdio --help
 
 about:
-  home: "https://git.ligo.org/computing/lowlatency/igwn-lldd-fdio"
-  license: "GPL-3.0-or-later"
-  license_family: "GPL"
-  license_file: "LICENSE"
-  summary:
-      The IGWN - Low Latency Data Distribution (lldd) - Frame distribtion
-      Input/ Output (FdIO) is software to distribute low latency data
-      used by the International Gravitational-Wave Observatory Network 
-      (IGWN) using a FdIOServer.
+  home: https://git.ligo.org/computing/lowlatency/igwn-lldd-fdio
+  license: GPL-3.0-or-later
+  license_family: GPL
+  license_file: LICENSE
+  summary: The IGWN - Low Latency Data Distribution (lldd) - Frame distribtion Input/ Output (FdIO) is software to distribute low latency data used by the International Gravitational-Wave Observatory Network (IGWN) using a FdIOServer.
 extra:
   recipe-maintainers:
     - rhyspoulton
