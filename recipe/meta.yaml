@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://git.ligo.org/computing/lowlatency/{{ name }}/-/archive/{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4ef3ad4a26d501fe6236c86882a998694703c3e3119c017ce9caf6cb2d342822
+  sha256: 45174838214986c8d744c86090c2db8e1475875159de8ae46732f7a273df8e25
 
 build:
   entry_points:
